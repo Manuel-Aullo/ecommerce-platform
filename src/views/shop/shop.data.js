@@ -43,9 +43,7 @@ const SHOP_DATA = [
         name: "Green Beanie",
         // imageUrl: 'https://i.ibb.co/YTjW3vF/green-beanie.png',
         imageUrl:
-          process.env.PUBLIC_URL +
-          process.env.PUBLIC_URL +
-          "/images/shop-img/hats/green-beanie.png",
+          process.env.PUBLIC_URL + "/images/shop-img/hats/green-beanie.png",
         price: 18,
       },
       {
