@@ -6,12 +6,14 @@ import JacketsView from "./views/jackets/jackets.view";
 import SneakersView from "./views/sneakers/sneakers.view";
 import MenView from "./views/men/men.view";
 import WomenView from "./views/women/women.view";
+import Header from "./components/header/header.component";
 import "./App.css";
 import { Switch, Route } from "react-router-dom";
 
 function App() {
   return (
     <div>
+      <Header />
       <Switch>
         <Route exact path="/" component={HomePage} />
         <Route exact path="/shop" component={ShopPage} />
